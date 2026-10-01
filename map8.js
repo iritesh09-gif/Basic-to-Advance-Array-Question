@@ -1,4 +1,4 @@
-// create a new array where each product price is increased by 10%.//
+// map() ka use karke har product ke liye ye format return karo://
 
 let products = [
     { name: "Laptop", price: 50000 },
@@ -7,11 +7,8 @@ let products = [
 ];
 
 let result = products.map(function(product){
-
-    return product.price*10/100 + product.price
+   
+    return product.name +  " costs " +product.price;
 });
 
 console.log(result)
-
-
-
