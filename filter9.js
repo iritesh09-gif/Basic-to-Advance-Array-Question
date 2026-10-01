@@ -10,7 +10,8 @@ let products = [
 
 
 let result = products.filter(function(product){
-    return product.price >= 1000 && product.price <=30000;
+    return product.price >= 1000 && product.price <=30000;  // here the result should be the object and 
+                                                            // the price should also be mentioned 
 });
 
 console.log(result)
