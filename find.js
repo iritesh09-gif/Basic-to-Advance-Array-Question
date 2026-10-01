@@ -3,8 +3,10 @@
 
 let numbers = [12,25,37,48,59,64]
 
-let result = numbers.find(function(numbers){
-            return numbers > 40;
+let result = numbers.find(function(number) {
+    return number > 40
 });
-   
-    console.log(result)
+
+  console.log(result)
+
+  
