@@ -1,6 +1,1 @@
-
-let result = products.map(function(product){
-    return product.name;
-});
-
-console.log(result)
+// create a new array where each name is converted to uppercase.//
