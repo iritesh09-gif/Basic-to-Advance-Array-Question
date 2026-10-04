@@ -24,7 +24,7 @@ let result = employees.map(function(employee){
     return {
         name: employee.name,
         salary: employee.salary,
-        level: employee.salary>=40000? "Senior" : "Junior" 
+        level: employee.salary>=40000? "Senior" : "Junior"   //  yha ternary ka use  kiya gya hai if/else ke jgh pr//
     };
 });
 
